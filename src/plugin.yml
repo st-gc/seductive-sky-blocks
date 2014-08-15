@@ -1,0 +1,12 @@
+name: seductive-skylands
+main: org.stgc.SeductiveSkyLands
+version: 0.0.1.2
+authors: ['Aequasi']
+depend: ['Multiverse-Core']
+commands:
+    skylands:
+        description: The info command
+        usage: /skylands
+        permissions: skylands.info
+        permission-message: You don't have access to that
+        aliases: [/sl]
